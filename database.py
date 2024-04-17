@@ -12,7 +12,7 @@ def get_names(ws: Worksheet):
     return names
 
 
-gc: Client = gspread.service_account("./service_account.json")
+gc: Client = gspread.service_account("ПУТЬ К JSON ФАЙЛУ")
 sh: Spreadsheet = gc.open_by_url(SPREADSHEET_URL)
 ws = sh.get_worksheet(0)
 names = get_names(ws)
