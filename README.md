@@ -1,2 +1,1 @@
 ![SHOW](show.gif)
-вы
